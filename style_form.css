@@ -1,0 +1,63 @@
+/*style form mahasiswa*/
+body {
+    font-family: 'algerian', sans-serif;
+    background-color: #f8e1f4; /* Latar belakang pink muda */
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px; /* Membentuk sudut yang lembut */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px; /* Lebar maksimum dari form */
+    margin: 0 auto; /* Mengatur agar form berada di tengah */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+h1 {
+    color: #f76294; /* Warna judul */
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #9b59b6; /* Warna label */
+    margin-top: 10px;
+    display: block; /* Memastikan label ada di atas input */
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ed99b5; /* Warna border */
+    border-radius: 10px; /* Membentuk sudut yang lembut */
+    box-sizing: border-box; /* Menghindari masalah ukuran */
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #9b59b6; /* Warna border saat fokus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+button {
+    background-color: #e91e63; /* Warna tombol */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px; /* Membentuk sudut yang lembut */
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c2185b; /* Mengubah warna saat hover */
+}
+
